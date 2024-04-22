@@ -12,6 +12,7 @@ public class Bag<T> {
     public void printElements() {
         for (T element : elements) {
             System.out.println("modified!!! "+element);
+            System.out.println("hello git");
         }
     }
 
